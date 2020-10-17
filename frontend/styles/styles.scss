@@ -1,0 +1,32 @@
+.container{
+  max-width: 1200px;
+}
+
+.header-cart{
+  
+
+  .header-cart-image{
+    img{
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+      position: relative;
+    }
+    span{
+      position: absolute;
+      top: 5px;
+      right: 7px;
+
+      @media (max-width: 575.98px) {
+        position: absolute;
+        top: -5px;
+      }
+    }
+  }
+
+  @media (max-width: 575.98px) {
+    position: absolute;
+    right: 90px;
+    top: 15px;
+  }
+}
