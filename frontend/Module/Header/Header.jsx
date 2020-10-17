@@ -22,7 +22,7 @@ function Header() {
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
                   <Link href="/"><a className="nav-link">Home</a></Link>
-                  <Link href="/products"><a className="nav-link">Products</a></Link>
+                  <Link href="/Products"><a className="nav-link">Products</a></Link>
                 </Nav>
                 <Form inline>
                   <FormControl type="text" placeholder="Search" className="mr-sm-2" />
